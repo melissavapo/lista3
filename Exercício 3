@@ -1,0 +1,11 @@
+def resultado(numero):
+    if (numero >= 0):
+        quadrado = numero ** 2
+        print(f"O resultado de {numero} é igual a {quadrado}")
+        return quadrado
+    else:
+        print("Não é possível mostrar o resultado, pois o numero é negativo.")
+
+numero1 = int(input("Digite um numero:"))
+
+resultado(numero1)
