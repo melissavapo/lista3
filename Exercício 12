@@ -1,0 +1,3 @@
+salario = float(input('Digite o salário: R$ '))
+if salario <= 1000:
+    print('Salário não é maior que R$ 1.000,00.')
