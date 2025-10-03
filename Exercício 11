@@ -1,0 +1,14 @@
+codigo = int(input("Digite o código do produto: "))
+
+if codigo == 1:
+    print("Classificação: Alimento não-perecível")
+elif codigo >= 2 and codigo <= 4:
+    print("Classificação: Alimento perecível")
+elif codigo == 5 or codigo == 6:
+    print("Classificação: Vestuário")
+elif codigo == 7:
+    print("Classificação: Higiene pessoal")
+elif codigo >= 8 and codigo <= 15:
+    print("Classificação: Limpeza e utensílios domésticos")
+else:
+    print("Inválido")
