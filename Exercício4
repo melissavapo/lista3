@@ -1,0 +1,25 @@
+    if (pessoa1 == 21):
+        print("a pessoa1 tem 21 anos")
+        total = total + 1
+    if (pessoa2 == 21):
+        print("a pessoa2 tem 21 anos")
+        total = total + 1
+    if (pessoa3 == 21):
+        print("a pessoa3 tem 21 anos")
+        total = total + 1
+    if (pessoa4 == 21):
+        print("a pessoa4 tem 21 anos")
+        total = total + 1
+    if (pessoa5 == 21):
+        print("a pessoa5 tem 21 anos")
+        total = total + 1
+    
+    print(f"de pessoas com 21 anos: {total}")
+
+idade1 = int(input("Digita sua idade: "))
+idade2 = int(input("Digita sua idade: "))
+idade3 = int(input("Digita sua idade: "))
+idade4 = int(input("Digita sua idade: "))
+idade5 = int(input("Digita sua idade: "))
+
+idades(idade1, idade2, idade3, idade4, idade5)
